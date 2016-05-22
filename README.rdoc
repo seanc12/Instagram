@@ -27,4 +27,4 @@ bin/rails g paperclip post image
 gem "factory_girl_rails"
 
 gem 'devise'
-
+rails g devise:install
