@@ -16,3 +16,13 @@ rails server -b $IP -p $PORT
 gem 'rspec-rails', '~> 3.4'
 gem 'capybara'
 gem 'factory_girl_rails'
+
+gem 'simple_form'
+rails generate simple_form:install
+
+rpm -Uvh ImageMagick-7.0.1-6.i386.rpm
+gem "paperclip", "~> 5.0.0.beta1"
+bin/rails g paperclip post image
+
+gem "factory_girl_rails"
+

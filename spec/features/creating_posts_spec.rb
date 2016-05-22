@@ -11,3 +11,4 @@ feature 'Creating posts' do
     expect(page).to have_css("img[src*='coffee.jpg']")
   end
 end
+
