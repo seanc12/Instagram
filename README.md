@@ -31,3 +31,7 @@ rails g devise:install
 
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+heroku run rake db:migrate
+
+
+
